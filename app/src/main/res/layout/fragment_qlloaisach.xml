@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THÊM LOẠI SÁCH MỚI"
+        android:textSize="24dp"
+        android:textColor="#F60C0C"/>
+    <EditText
+        android:id="@+id/edtLoaiSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên sách"/>
+    <Button
+        android:id="@+id/btnThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DANH SÁCH LOẠI SÁCH"
+        android:textSize="24dp"
+        android:textColor="#F60C0C"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerLoaiSach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
